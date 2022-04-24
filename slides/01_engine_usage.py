@@ -2,7 +2,7 @@
 import os
 from sqlalchemy import create_engine
 from sqlalchemy import text
-
+# testing
 if os.path.exists("some.db"):
     os.remove("some.db")
 e = create_engine("sqlite:///some.db")
